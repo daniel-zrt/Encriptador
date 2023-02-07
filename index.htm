@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador - Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            
+        </header>
+        <main>
+            <div>
+                <img src="imagenes/Vector.png" alt="Logo de Alura" class="logo">
+            </div>
+            <section class="textboton">
+                <textarea cols="50" rows="10" id="texto" class="input-texto" required placeholder="Ingrese el texto aquí"></textarea>
+                <div class="advertencia">
+                    <img class="icono-advertencia" src="imagenes/advertencia.png" alt="Simbolo de admiracion">
+                    <p>Solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="traduccion">
+                <textarea class="mensaje" cols="30" rows="13" id="myInput"></textarea>
+                <div class="tooltip">
+                    <button class="copiar" onclick="btnCopiar()" onmouseout="outFunc()">
+                        <span class="tooltiptext" id="myTooltip">Copiar Texto</span>   
+                        Copiar
+                    </button>
+                </div>
+            </section>            
+            
+        </main>
+        <script src="/script.js"></script>
+    </body>
+</html>

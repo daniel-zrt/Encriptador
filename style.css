@@ -1,0 +1,152 @@
+*{
+    background-color: #E5E5E5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 50px;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-bottom: 0;
+    
+}
+
+.textboton{
+    padding-left: 50px;
+}
+
+.input-texto{
+    border: none;
+    color: #0A3871;
+    text-transform: lowercase;
+    resize: none;
+    padding-top: 100px;
+}
+::placeholder{color: #0A3871;}
+.input-texto:focus{
+    outline: none;
+}
+
+.traduccion{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.mensaje{
+    background: white;
+    background-image: url("/imagenes/munheco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    resize: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    position: absolute;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.mensaje{
+    padding-bottom: 100px;
+}
+
+.copiar{
+    
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    position: absolute;
+    margin-top: 465px;
+    margin-left: 75px;
+    width: 300px;
+    
+}
+
+.icono-advertencia{
+    float: left;
+    padding-top: 10px;
+    padding-right: 2px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

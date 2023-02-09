@@ -43,7 +43,7 @@ main{
 
 .mensaje{
     background: white;
-    background-image: url("/imagenes/munheco.png");
+    background-image: url("imagenes/munheco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
@@ -163,12 +163,13 @@ p{
     }
 
     .botones{
-        padding-left: 35px;
+        display: block;
     }
 
-    .btn-encriptar, .btn-desencriptar{
-        padding-left: 20px;
-        padding-right: 20px;
+    .btn-desencriptar, .btn-encriptar{
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 60px;
     }
 
     .input-texto{

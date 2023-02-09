@@ -15,9 +15,6 @@
 
 main{
     display: flex;
-    margin-bottom: 50px;
-    margin-bottom: 0;
-    
 }
 
 .textboton{
@@ -154,22 +151,32 @@ p{
 @media screen and (max-width:480px) {
     main {
         display: block;
+        width: fit-content;
         margin-left: auto;
         margin-right: auto;
     }
 
+    body{
+        width: fit-content;
+    }
+
     .textboton{
+        padding: 0;
+    }
+
+    .input-texto, .advertencia{
         padding-left: 50px;
     }
 
     .botones{
         display: block;
+        text-align: center;
     }
 
     .btn-desencriptar, .btn-encriptar{
         margin: 0;
         margin-top: 15px;
-        margin-left: 60px;
+
     }
 
     .input-texto{
@@ -180,6 +187,10 @@ p{
     .mensaje{
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .copiar{
+        text-align: center;
     }
 }
   

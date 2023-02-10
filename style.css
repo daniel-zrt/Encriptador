@@ -47,9 +47,6 @@ main{
     border-radius: 24px;
     color: #0A3871;
     resize: none;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-right: 20px;
     padding-bottom: 100px;
     position: absolute;
 }
@@ -91,8 +88,8 @@ main{
     height: 67px;
     position: relative;
     margin-top: 490px;
-    margin-left: 75px;
-    width: 300px; 
+    margin-left: 50px;
+    width: 328px; 
 }
 
 .botones, .botoncopiar{
@@ -148,6 +145,16 @@ p{
 
     .copiar{
         margin-left: 0;
+    }
+
+    .traduccion{
+        margin: 0;
+    }
+
+    .mensaje{
+        margin-left: 60px;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 }
   

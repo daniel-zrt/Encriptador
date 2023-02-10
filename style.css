@@ -173,11 +173,6 @@ p{
         margin-top: 15px;
     }
 
-    .traduccion{
-        margin-left: 0;
-        padding-left: 50px;
-    }
-
     .input-texto{
         padding-top: 20px;
         padding-right: 50px;
@@ -189,9 +184,8 @@ p{
     }
 
     .copiar{
-        margin: 0;
+        
+        text-align: center;
     }
-
-    
 }
   

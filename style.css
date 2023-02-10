@@ -89,10 +89,15 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    position: absolute;
+    position: relative;
     margin-top: 490px;
     margin-left: 75px;
     width: 300px; 
+}
+
+.botones, .botoncopiar{
+    display: flex;
+    justify-content: center;
 }
 
 .icono-advertencia{
@@ -141,6 +146,5 @@ p{
         padding-right: 50px;
     }
 
-    
 }
   

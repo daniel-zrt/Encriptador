@@ -87,7 +87,6 @@ main{
 }
 
 .copiar{
-    
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
@@ -96,8 +95,7 @@ main{
     position: absolute;
     margin-top: 465px;
     margin-left: 75px;
-    width: 300px;
-    
+    width: 300px; 
 }
 
 .icono-advertencia{
@@ -176,7 +174,11 @@ p{
     .btn-desencriptar, .btn-encriptar{
         margin: 0;
         margin-top: 15px;
+    }
 
+    .traduccion{
+        margin-left: 0;
+        padding-left: 50px;
     }
 
     .input-texto{
@@ -189,8 +191,10 @@ p{
         margin-right: auto;
     }
 
-    .copiar{
+    .tooltip{
         text-align: center;
     }
+
+    
 }
   

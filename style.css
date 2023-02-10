@@ -47,6 +47,7 @@ main{
     border-radius: 24px;
     color: #0A3871;
     resize: none;
+    padding: 20px;
     padding-bottom: 100px;
     position: absolute;
 }
@@ -125,7 +126,7 @@ p{
     }
 
     .input-texto, .advertencia{
-        padding-left: 50px;
+        padding-left: 80px;
     }
 
     .botones{
@@ -136,6 +137,7 @@ p{
     .btn-desencriptar, .btn-encriptar{
         margin: 0;
         margin-top: 15px;
+        width: 430px;
     }
 
     .input-texto{
@@ -145,6 +147,8 @@ p{
 
     .copiar{
         margin-left: 0;
+        margin-top: 510px;
+        width: 400px;
     }
 
     .traduccion{
@@ -155,6 +159,7 @@ p{
         margin-left: 60px;
         margin-top: 20px;
         margin-bottom: 50px;
+        padding-right: 0;
     }
 }
   

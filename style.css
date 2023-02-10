@@ -90,7 +90,7 @@ main{
     cursor: pointer;
     height: 67px;
     position: absolute;
-    margin-top: 465px;
+    margin-top: 490px;
     margin-left: 75px;
     width: 300px; 
 }
@@ -141,8 +141,6 @@ p{
         padding-right: 50px;
     }
 
-    .copiar{
-        margin-left: 100px;
-    }
+    
 }
   

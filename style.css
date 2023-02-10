@@ -50,6 +50,7 @@ main{
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 20px;
+    padding-bottom: 100px;
     position: absolute;
 }
 
@@ -80,10 +81,6 @@ main{
     height: 67px;
     margin-left: 30px;
     width: 328px;
-}
-
-.mensaje{
-    padding-bottom: 100px;
 }
 
 .copiar{
@@ -191,8 +188,8 @@ p{
         margin-right: auto;
     }
 
-    .tooltip{
-        text-align: center;
+    .copiar{
+        margin: 0;
     }
 
     
